@@ -1,0 +1,20 @@
+alpha: 0.7
+l1_ratio: 0.7
+# Paths to the data and output files
+data_path: "../Data/bronze/red-wine-quality.csv"
+output_path: "../Data/silver/red-wine-quality.csv"
+train_path: "../Data/silver/train.csv"
+test_path: "../Data/silver/test.csv"
+experiment_name: "model_1"
+run_name: "param_2"
+model_name: "model_1_param_2"
+
+# MLflow tags
+tags:
+  engineering: "ML platform"
+  data_version: "v1.2"
+  run_type: "training"
+  compute_resource: "CPU"
+  source_version: "commit_abc123"
+  release_status: "dev"
+  notes: "Initial run with baseline parameters"
